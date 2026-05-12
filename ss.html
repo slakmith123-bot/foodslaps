@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viral Food Trends 2026 | Must-Try USA Recipes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* CSS Styling */
+        :root {
+            --primary-color: #ff4757;
+            --secondary-color: #ffa502;
+            --dark-color: #2f3542;
+            --light-color: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f1f2f6;
+            color: var(--dark-color);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .hero-content h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            max-width: 600px;
+        }
+
+        .cta-button {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 15px 35px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            transition: 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 71, 87, 0.4);
+        }
+
+        .cta-button:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-3px);
+        }
+
+        .trending-section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            color: var(--primary-color);
+        }
+
+        .food-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .food-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .food-card:hover {
+            transform: scale(1.05);
+        }
+
+        .food-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .food-card-content {
+            padding: 20px;
+        }
+
+        .food-card h3 {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: var(--dark-color);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero-content h1 { font-size: 2.2rem; }
+            .hero-content p { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="hero-content">
+            <h1>🔥 Viral USA Food Hacks</h1>
+            <p>The secret recipes taking TikTok and Instagram by storm. Discover what America is cooking right now!</p>
+            <a href="#trending" class="cta-button">SEE WHAT'S TRENDING</a>
+        </div>
+    </header>
+
+    <section id="trending" class="trending-section">
+        <h2 class="section-title">Trending Now in USA</h2>
+        <div class="food-grid">
+            <!-- Card 1 -->
+            <div class="food-card">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=500&q=80" alt="Viral Pizza">
+                <div class="food-card-content">
+                    <h3>The 5-Minute Folded Pizza</h3>
+                    <p>This simple trick changed the way millions enjoy their pizza slices.</p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="food-card">
+                <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7bb7445?auto=format&fit=crop&w=500&q=80" alt="Pancakes">
+                <div class="food-card-content">
+                    <h3>Fluffy Cloud Pancakes</h3>
+                    <p>The breakfast trend that's literally "floating" across NYC.</p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="food-card">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=500&q=80" alt="Healthy Bowl">
+                <div class="food-card-content">
+                    <h3>Ultimate Green Glow Bowl</h3>
+                    <p>The #1 healthy hack for a viral metabolism boost.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 ViralFoodUSA. All Rights Reserved.</p>
+        <p>Follow the flavor trends!</p>
+    </footer>
+
+</body>
+</html>
